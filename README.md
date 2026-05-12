@@ -5,8 +5,6 @@ FaultSense is a two-stage CWRU bearing fault diagnosis and repair advisory syste
 1. A Qwen2.5-7B-Instruct LoRA classifier predicts bearing fault type and severity from serialized vibration features.
 2. A FAISS-backed RAG pipeline retrieves bearing-maintenance manual passages and generates cited repair guidance.
 
-See [FaultSense_Final_Report.md](FaultSense_Final_Report.md) for the project report.
-
 ## Files
 
 ```text
