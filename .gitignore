@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.Zone.Identifier
+*:Zone.Identifier
+
+.DS_Store
+.codex
+.agents/
+.venv/
+venv/
+env/
+
+# Runtime artifacts are downloaded from Google Drive; see README.md.
+FaultSense/finetune/
+FaultSense/rag/

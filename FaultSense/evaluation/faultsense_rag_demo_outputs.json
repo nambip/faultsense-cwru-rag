@@ -1,0 +1,262 @@
+[
+  {
+    "index": 0,
+    "sensor_input": "Max=3.9313, Min=-4.1508, Mean=0.0148, StdDev=0.6629, RMS=0.6629, Skewness=-0.2887, Kurtosis=8.6678, CrestFactor=5.9304, FormFactor=44.7884",
+    "expected_label": "Outer Race - High",
+    "predicted_label": "Outer Race - High",
+    "rag_query": "Outer Race bearing fault High severity bearing outer race defect vibration housing alignment repair replacement immediate shutdown critical urgent replacement safety risk",
+    "diagnosis": "Outer Race bearing fault at High severity",
+    "rag_generated_advice": "1. Likely issue: Excessive load or excessive speed leading to increased operating temperature and potential out-of-round housing.\n2. Immediate action: Reduce the load or speed if possible, and check the operating conditions.\n3. Inspection or repair steps:\n   - Verify the roundness of the shaft and housing seats.\n   - Ensure the support surface is flat and rigid.\n   - Check for any soft foot or flexing issues.\n4. Operating priority: High priority; take immediate action or reduce operation.\n5. Citations by source number: [Source 1] [Source 2]\n\nExplanation: The high severity of the outer race bearing fault indicates that immediate action is needed. The sensor features suggest an increase in operating temperature, which aligns with the likely issue of excessive load or speed. The context from both sources [Source 1] and [Source 2] supports checking the roundness of the shaft and housing seats, ensuring a flat and rigid support surface, and addressing any soft foot or flexing issues.",
+    "manual_citations": [
+      {
+        "source_id": 1,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 97,
+        "score": 0.5874398946762085
+      },
+      {
+        "source_id": 2,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 19,
+        "score": 0.5756518244743347
+      },
+      {
+        "source_id": 3,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 13,
+        "score": 0.5754793882369995
+      }
+    ],
+    "retrieved_context_previews": [
+      {
+        "source_id": 1,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 97,
+        "score": 0.5874398946762085,
+        "preview": "97 Appendix C: Bearing damage and failures – modes and causes = high correlation = low correlation Possible causes Operating conditions Environment Lubrication Mounting Other Excessive load Excessive speed Frequent load/speed fluctuations Vibration Shaft / housing deflection Temperature too high / low Solid contaminants ingress Water ingress Electrical current Wrong viscosity Wrong consistency or additives Insufficient lubricant Excessive lubricant Contaminated Incorrect handling (+ impact) Mounting procedures Fit too tight Fit too loose Tilting / misalignment Incorrect setting (preload) Incor"
+      },
+      {
+        "source_id": 2,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 19,
+        "score": 0.5756518244743347,
+        "preview": "19 Trouble conditions and their solutions Table 2 cont . Troubleshooting Solution code Condition / Practical solution 15 Bearing seat is out-of-round Considerations during operation: • A bearing outer ring in an out-of-round or distorted housing (oval clamping/pinching) leads to reduced clearance or preload and an increase in operating temperature . • This is often characterized by two load zones in the outer ring that are 180° apart . • Oval clamping (pinching) can also restrict axial movement of the non-locating bearing and induce heavy axial loads . Actions: • Check that the support surface"
+      },
+      {
+        "source_id": 3,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 13,
+        "score": 0.5754793882369995,
+        "preview": "13 Troubleshooting Possible cause Solution code Preloaded bearing • Wrong clearance selected for the replacement bearing 11 • Shaft material expanding more than bearing steel (e .g . stainless steel) 12 • Large temperature difference between the shaft and housing 13 • Excessive drive-up on a tapered seat 14 • Excessive out-of-round condition of the shaft or housing – pinched bearing 15 • Excessive shaft and/or housing interference fits 16, 17 • Excessive preload – incorrect assembly (preload) 26 Sealing drag • Housing seals too tight, or other components foul the seals 5 • Multiple seals in a "
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "sensor_input": "Max=0.7965, Min=-0.6905, Mean=0.0313, StdDev=0.1835, RMS=0.1861, Skewness=0.0199, Kurtosis=0.8290, CrestFactor=4.2791, FormFactor=5.9470",
+    "expected_label": "Inner Race - Medium",
+    "predicted_label": "Inner Race - Medium",
+    "rag_query": "Inner Race bearing fault Medium severity bearing inner race defect vibration spalling repair replacement maintenance repair inspect soon planned replacement",
+    "diagnosis": "Inner Race bearing fault at Medium severity",
+    "rag_generated_advice": "1. Likely issue: Inner race bearing fault, likely due to excessive load or incorrect mounting procedures.\n2. Immediate action: Reduce the load on the bearing if possible, and inspect the bearing for signs of misalignment or incorrect mounting.\n3. Inspection or repair steps: \n   - Verify the bearing load and ensure it does not exceed the recommended limits.\n   - Check the shaft and housing for any deflection or misalignment.\n   - Inspect the bearing for any signs of misalignment or incorrect mounting.\n   - Ensure proper lubrication and correct viscosity.\n4. Operating priority: Medium priority; schedule maintenance soon.\n5. Citations: [Source 1] [Source 3]\n\nThe medium priority is set based on the predicted medium severity of the fault. The context from Source 1 indicates that unexpected bearing failure can occur for various reasons, and Source 3 provides specific causes related to loading and mounting, supporting the need for immediate inspection and correction of these factors.",
+    "manual_citations": [
+      {
+        "source_id": 1,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 5,
+        "score": 0.5792948603630066
+      },
+      {
+        "source_id": 2,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 9,
+        "score": 0.563636064529419
+      },
+      {
+        "source_id": 3,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 97,
+        "score": 0.5500881671905518
+      }
+    ],
+    "retrieved_context_previews": [
+      {
+        "source_id": 1,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 5,
+        "score": 0.5792948603630066,
+        "preview": "attain its expected service life . Failures will generally cause eco- nomic losses due to loss of production, consequential damage of adjacent parts, and the cost of repairs . Unexpected bearing failure can occur for a variety of reasons . Each failure leaves its own special imprint on the bearing . By examining a failed or damaged bear- ing, it is possible in the majority of cases to establish the root cause and define cor- rective actions to prevent a recurrence . This publication is intended to provide a basic understanding of bearing failures and failure analysis . With the knowledge prese"
+      },
+      {
+        "source_id": 2,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 9,
+        "score": 0.563636064529419,
+        "preview": "9 to be noticeable, the damage may already be extensive . The advantage of employing object ive technologies, such as advanced vibration analysis, is that damage is detected at an early stage of development, before it becomes problematic (diagram 1) . By using professional condition monitoring instruments and the SKF enveloped accel- eration technology, the pre-warning time can be maximized . Fig . 1 shows the progress of damage as illustrated in diagram 1: 1 . Bearing exhibits incipient abrasive wear . 2 . First spall, detected by SKF enveloped acceleration technology . 3 . Spalling has devel"
+      },
+      {
+        "source_id": 3,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 97,
+        "score": 0.5500881671905518,
+        "preview": "97 Appendix C: Bearing damage and failures – modes and causes = high correlation = low correlation Possible causes Operating conditions Environment Lubrication Mounting Other Excessive load Excessive speed Frequent load/speed fluctuations Vibration Shaft / housing deflection Temperature too high / low Solid contaminants ingress Water ingress Electrical current Wrong viscosity Wrong consistency or additives Insufficient lubricant Excessive lubricant Contaminated Incorrect handling (+ impact) Mounting procedures Fit too tight Fit too loose Tilting / misalignment Incorrect setting (preload) Incor"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "sensor_input": "Max=0.4218, Min=-0.4540, Mean=0.0141, StdDev=0.1407, RMS=0.1413, Skewness=-0.0626, Kurtosis=-0.0831, CrestFactor=2.9848, FormFactor=10.0355",
+    "expected_label": "Outer Race - Medium",
+    "predicted_label": "Outer Race - Medium",
+    "rag_query": "Outer Race bearing fault Medium severity bearing outer race defect vibration housing alignment repair replacement maintenance repair inspect soon planned replacement",
+    "diagnosis": "Outer Race bearing fault at Medium severity",
+    "rag_generated_advice": "1. Likely issue: Uneven support of bearing rings leading to outer race wear and potential lip fractures.\n2. Immediate action: Reduce the load on the bearing and check the fit between the outer ring and housing.\n3. Inspection or repair steps:\n   - Verify the roundness of the shaft and housing seats.\n   - Ensure the housing support surface is flat and rigid.\n   - Check for any seating marks not aligned with the expected load zone.\n   - Inspect the outer ring for any signs of fretting corrosion or uneven support.\n4. Operating priority: Medium priority; schedule maintenance soon.\n5. Citations: [Source 1], [Source 3]\n\nThe context indicates that the uneven support of the bearing rings is a significant factor in this issue, aligning with both sources [Source 1] and [Source 3].",
+    "manual_citations": [
+      {
+        "source_id": 1,
+        "source": "wl_82102_3_de_en.pdf",
+        "page": 19,
+        "score": 0.5559317469596863
+      },
+      {
+        "source_id": 2,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 97,
+        "score": 0.5516259670257568
+      },
+      {
+        "source_id": 3,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 19,
+        "score": 0.5481868386268616
+      }
+    ],
+    "retrieved_context_previews": [
+      {
+        "source_id": 1,
+        "source": "wl_82102_3_de_en.pdf",
+        "page": 19,
+        "score": 0.5559317469596863,
+        "preview": "3.2.3 Uneven support of bearing rings Symptoms: Seating marks not in the area of the expected load zone. Machining structure of fitting sur- faces worn in some areas and completely untouched in others, figs. 18, 19. Later fatigue damage and fractures due to un- even load distribution and bending of rings. Lip fractures result from too little support of tapered roller bearing cones, fig. 20, and plastic setting phenomenon from contact surfaces which are too small. Causes: – Unsuitable design – Inaccurate machining Remedial measures: – Change mating parts constructively keeping uniform housing r"
+      },
+      {
+        "source_id": 2,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 97,
+        "score": 0.5516259670257568,
+        "preview": "97 Appendix C: Bearing damage and failures – modes and causes = high correlation = low correlation Possible causes Operating conditions Environment Lubrication Mounting Other Excessive load Excessive speed Frequent load/speed fluctuations Vibration Shaft / housing deflection Temperature too high / low Solid contaminants ingress Water ingress Electrical current Wrong viscosity Wrong consistency or additives Insufficient lubricant Excessive lubricant Contaminated Incorrect handling (+ impact) Mounting procedures Fit too tight Fit too loose Tilting / misalignment Incorrect setting (preload) Incor"
+      },
+      {
+        "source_id": 3,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 19,
+        "score": 0.5481868386268616,
+        "preview": "19 Trouble conditions and their solutions Table 2 cont . Troubleshooting Solution code Condition / Practical solution 15 Bearing seat is out-of-round Considerations during operation: • A bearing outer ring in an out-of-round or distorted housing (oval clamping/pinching) leads to reduced clearance or preload and an increase in operating temperature . • This is often characterized by two load zones in the outer ring that are 180° apart . • Oval clamping (pinching) can also restrict axial movement of the non-locating bearing and induce heavy axial loads . Actions: • Check that the support surface"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "sensor_input": "Max=3.4589, Min=-3.6600, Mean=0.0166, StdDev=0.6479, RMS=0.6480, Skewness=-0.2318, Kurtosis=7.5686, CrestFactor=5.3382, FormFactor=39.0783",
+    "expected_label": "Outer Race - High",
+    "predicted_label": "Outer Race - High",
+    "rag_query": "Outer Race bearing fault High severity bearing outer race defect vibration housing alignment repair replacement immediate shutdown critical urgent replacement safety risk",
+    "diagnosis": "Outer Race bearing fault at High severity",
+    "rag_generated_advice": "1. Likely issue: Excessive load or excessive speed leading to increased operating temperature and potential out-of-round housing.\n2. Immediate action: Reduce the load or speed if possible, and check the operating temperature.\n3. Inspection or repair steps:\n   - Verify the roundness of the shaft and housing seats.\n   - Ensure the support surface is flat and rigid.\n   - Check for any shims and ensure they cover the entire area of the housing base.\n   - Inspect the bearing for any signs of misalignment or excessive preload.\n4. Operating priority: High priority; take immediate action or reduce operation.\n5. Citations: [Source 1] [Source 2]\n\nExplanation: The high severity of the outer race bearing fault indicates that immediate action is needed. The sensor features suggest an increase in operating temperature, which aligns with the likely issues of excessive load or speed. The context from both sources [Source 1] and [Source 2] provide relevant information about checking the roundness of the shaft and housing seats, ensuring a flat and rigid support surface, and inspect",
+    "manual_citations": [
+      {
+        "source_id": 1,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 97,
+        "score": 0.5874398946762085
+      },
+      {
+        "source_id": 2,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 19,
+        "score": 0.5756518244743347
+      },
+      {
+        "source_id": 3,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 13,
+        "score": 0.5754793882369995
+      }
+    ],
+    "retrieved_context_previews": [
+      {
+        "source_id": 1,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 97,
+        "score": 0.5874398946762085,
+        "preview": "97 Appendix C: Bearing damage and failures – modes and causes = high correlation = low correlation Possible causes Operating conditions Environment Lubrication Mounting Other Excessive load Excessive speed Frequent load/speed fluctuations Vibration Shaft / housing deflection Temperature too high / low Solid contaminants ingress Water ingress Electrical current Wrong viscosity Wrong consistency or additives Insufficient lubricant Excessive lubricant Contaminated Incorrect handling (+ impact) Mounting procedures Fit too tight Fit too loose Tilting / misalignment Incorrect setting (preload) Incor"
+      },
+      {
+        "source_id": 2,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 19,
+        "score": 0.5756518244743347,
+        "preview": "19 Trouble conditions and their solutions Table 2 cont . Troubleshooting Solution code Condition / Practical solution 15 Bearing seat is out-of-round Considerations during operation: • A bearing outer ring in an out-of-round or distorted housing (oval clamping/pinching) leads to reduced clearance or preload and an increase in operating temperature . • This is often characterized by two load zones in the outer ring that are 180° apart . • Oval clamping (pinching) can also restrict axial movement of the non-locating bearing and induce heavy axial loads . Actions: • Check that the support surface"
+      },
+      {
+        "source_id": 3,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 13,
+        "score": 0.5754793882369995,
+        "preview": "13 Troubleshooting Possible cause Solution code Preloaded bearing • Wrong clearance selected for the replacement bearing 11 • Shaft material expanding more than bearing steel (e .g . stainless steel) 12 • Large temperature difference between the shaft and housing 13 • Excessive drive-up on a tapered seat 14 • Excessive out-of-round condition of the shaft or housing – pinched bearing 15 • Excessive shaft and/or housing interference fits 16, 17 • Excessive preload – incorrect assembly (preload) 26 Sealing drag • Housing seals too tight, or other components foul the seals 5 • Multiple seals in a "
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "sensor_input": "Max=1.3627, Min=-1.4995, Mean=0.0194, StdDev=0.2789, RMS=0.2795, Skewness=-0.2876, Kurtosis=5.2274, CrestFactor=4.8757, FormFactor=14.3790",
+    "expected_label": "Inner Race - Low",
+    "predicted_label": "Inner Race - Low",
+    "rag_query": "Inner Race bearing fault Low severity bearing inner race defect vibration spalling repair replacement monitor inspection preventive maintenance routine check",
+    "diagnosis": "Inner Race bearing fault at Low severity",
+    "rag_generated_advice": "1. Likely issue: Inner race bearing fault, indicated by abnormal vibration readings.\n2. Immediate action: Monitor the machine closely and schedule a detailed inspection.\n3. Inspection or repair steps: \n   - Inspect the bearing for visible signs of damage, such as spalls or wear.\n   - Measure the bearing’s temperature to check for increased heat.\n   - Use vibration analysis to confirm the presence of the fault and assess its severity.\n4. Operating priority: Low priority; monitor closely and schedule inspection.\n5. Citations: [Source 1] [Source 2]\n\nThe predicted fault indicates an early-stage inner race bearing issue, which aligns with the low severity rating. Close monitoring and scheduling a detailed inspection are recommended to avoid potential further damage or unscheduled downtime.",
+    "manual_citations": [
+      {
+        "source_id": 1,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 8,
+        "score": 0.6287627220153809
+      },
+      {
+        "source_id": 2,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 9,
+        "score": 0.6212977170944214
+      },
+      {
+        "source_id": 3,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 5,
+        "score": 0.6048096418380737
+      }
+    ],
+    "retrieved_context_previews": [
+      {
+        "source_id": 1,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 8,
+        "score": 0.6287627220153809,
+        "preview": "8 2 Inspection and troubleshooting Inspection during operation Early indications of bearing damage enable a user to replace bearings during regularly scheduled maintenance, avoiding otherwise costly unscheduled machine downtime due to bearing failure . Important parame- ters for monitoring machine condition include noise, temperature and vibration . Bearings that are worn or damaged usu- ally exhibit identifiable symptoms . Many possible causes could be responsible and need to be investigated (Troubleshooting, page 10) . For practical reasons, not all machines or machine functions can be monit"
+      },
+      {
+        "source_id": 2,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 9,
+        "score": 0.6212977170944214,
+        "preview": "9 to be noticeable, the damage may already be extensive . The advantage of employing object ive technologies, such as advanced vibration analysis, is that damage is detected at an early stage of development, before it becomes problematic (diagram 1) . By using professional condition monitoring instruments and the SKF enveloped accel- eration technology, the pre-warning time can be maximized . Fig . 1 shows the progress of damage as illustrated in diagram 1: 1 . Bearing exhibits incipient abrasive wear . 2 . First spall, detected by SKF enveloped acceleration technology . 3 . Spalling has devel"
+      },
+      {
+        "source_id": 3,
+        "source": "14219_3_EN_-_Bearing_failures_LOW_pdf_preview_medium.pdf",
+        "page": 5,
+        "score": 0.6048096418380737,
+        "preview": "attain its expected service life . Failures will generally cause eco- nomic losses due to loss of production, consequential damage of adjacent parts, and the cost of repairs . Unexpected bearing failure can occur for a variety of reasons . Each failure leaves its own special imprint on the bearing . By examining a failed or damaged bear- ing, it is possible in the majority of cases to establish the root cause and define cor- rective actions to prevent a recurrence . This publication is intended to provide a basic understanding of bearing failures and failure analysis . With the knowledge prese"
+      }
+    ]
+  }
+]
